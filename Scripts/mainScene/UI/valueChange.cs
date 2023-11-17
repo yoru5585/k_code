@@ -112,7 +112,6 @@ public class valueChange : MonoBehaviour
 
     void HPiconChanger()
     {
-        //イベントトリガーで一度だけ関数呼び出しメモ
 
         if (vms.HP_value <= 0)
         {

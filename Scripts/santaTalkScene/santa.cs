@@ -36,7 +36,6 @@ public class santa : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //contains‚Å‚»‚Ì•¶š—ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚½‚çtrue‚ğ•Ô‚·B“G‚Ì‘®«ˆ—‚É•Ö—˜‚»‚¤
         if (collision.gameObject.tag.Contains("Player"))
         {
             canTalk = true;

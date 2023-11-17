@@ -69,7 +69,6 @@ public class player : MonoBehaviour
 
         if (Input.GetKeyDown("k")|| notDestroy_s.isEasyMode)
         {
-            //まだスタミナシステム作ってない→つくった。
             if (stop_flag == false)
             {
                 fast_flag = true;

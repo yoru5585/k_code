@@ -11,7 +11,6 @@ public class takara_destroy : MonoBehaviour
 
     SpriteRenderer fadeImage;
 
-    //アイテム重複あり、鏡６つ、アーマー一つ、あと何か一つの８つ
     // Start is called before the first frame update
     void Start()
     {

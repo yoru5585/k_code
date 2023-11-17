@@ -23,8 +23,6 @@ public class playerAnim : MonoBehaviour
 
             if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0)
             {
-                //移動系のボタンから手を離してもその後マイクロ単位でAxisRawに値が残る。そして上のifを通り過ぎた後すべて0になるので最終的に"上"判定が少し出て終わる。
-                //それの回避
                 return;
             }
 

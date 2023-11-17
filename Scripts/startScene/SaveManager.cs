@@ -8,8 +8,6 @@ public class SaveManager : MonoBehaviour
     string filePath;
     SaveData save;
     notDestroy nd;
-    //多分リスト保存できない
-    //やるならstringにしてデータ小さくするしかない
 
     void Awake()
     {

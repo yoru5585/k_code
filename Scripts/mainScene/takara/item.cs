@@ -31,8 +31,6 @@ public class item : MonoBehaviour
     public bool IsStage4;
     public bool flag;
 
-    //アイテムスロットをつくる。そこから溢れたアイテムはスカ。
-    //キューで実装？
 
     // Start is called before the first frame update
     void Start()
@@ -136,7 +134,6 @@ public class item : MonoBehaviour
         //int random = 0;
 
         var parent = foodAnimationObj.transform;
-        //なぜかpositionが変わらない。アニメーションの相対座標の問題だった。解決
         GameObject pre = (GameObject)Resources.Load("foodAnimation");
         GameObject createObj = Instantiate(pre, foodPos, Quaternion.identity, parent);
 

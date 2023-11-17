@@ -55,7 +55,6 @@ public class takaraPosSelect : MonoBehaviour
 
         timeCount = timeInterval;
     }
-    //フライウェイトパターン
 
     // Update is called once per frame
     void Update()

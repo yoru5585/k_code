@@ -19,7 +19,6 @@ public class valueManagerScript : MonoBehaviour
     float getExp_thisStage;
 
     //主人公の手持ち武器　現在の攻撃力
-    //これを敵は取得し、自分の体力を減らす。
     public float playerMainWeaponAP;
 
     //ウェーブ管理用　キル数

@@ -128,9 +128,6 @@ public class enemyHP : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //武器の種類（手持ち、メテオ、炎）に応じてタグ分けする
-        //仲介役となるスプライトに現在の主人公の武器のダメージ量を取得させ、それをここでget
-        //メテオ、炎はダメージ固定だから取得する必要ないかもね。
 
         if (gameObject.name == "dragon")
         {

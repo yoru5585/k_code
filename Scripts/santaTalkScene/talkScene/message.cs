@@ -39,7 +39,6 @@ public class message : MonoBehaviour
     {
 
     };
-    //ここではテキストの要素数を直接指定して選択肢を出す。
 
     Text text;
     Text nametext;

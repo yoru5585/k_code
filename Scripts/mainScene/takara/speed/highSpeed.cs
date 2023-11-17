@@ -20,8 +20,6 @@ public class highSpeed : MonoBehaviour
     GameObject fill_Image;
 
     Image fill;
-
-    //スタミナを上げ下げしているスクリプトにアクセスして、その上げ下げの値を変更する。
     valueChange vc;
 
     //Text countText;
